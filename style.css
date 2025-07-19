@@ -4,6 +4,7 @@ div{
   width: 100px;
 }
 button{
+  background-color: blue;
   height: 50px;
   width: 50px;
   font-size: 15px;
