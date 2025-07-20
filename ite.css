@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 3px 9px 3px rgb(0, 179, 255);
+    box-shadow: 3px 9px 15px rgb(68, 197, 252);
 }
 .main h1{
     color: beige;
@@ -23,7 +23,6 @@ body{
     font-size: 17px;
     text-align: center;
     box-shadow: 3px 3px 3px grey;
-    border-radius: 10px;
 }
 .drop a{
     display: block;
@@ -34,7 +33,7 @@ body{
 .drop .content{
     background-color: aqua;
     position: absolute;
-    box-shadow: 6px 6px 4px rgb(0, 0, 0);
+    box-shadow: 3px 3px 2px blue;
     display: none;
     min-width: 100px;
 }
@@ -50,30 +49,36 @@ body{
 .drop a:hover{
     background-color: rgb(6, 100, 100);
 }
-.series{
+.Parts{
     align-items: center;
-    padding:10px 60px;
+    padding: 30px 40px;
+    justify-content: space-between;
+}
+.btns{
+    display: flex;
+}
+.btns a{
+    background-color: aqua;
+    padding: 25px 50px;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(101, 95, 95);
-    height: 850px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
-.series #oao{
-    width: 250px;
-    border-radius: 15px;
+.Parts button{
+    background-color: aqua;
+    padding: 25px 50px;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 40px;
+    border: 0px;
+    border-radius: 20px;
 }
-.series #ite{
-    width: 250px;
-    border-radius: 15px;
-    margin-left: 10px ;
-}
-.series #oao:hover{
-    width: 275px;
-    box-shadow: 10px 10px 15px black;
-    transition-delay: 15ms;
-}
-.series #ite:hover{
-    transition-delay: 15ms;
-    box-shadow: 10px 10px 15px black;
-    width: 275px;
+.Parts a:hover{
+    background-color: rgb(37, 176, 176);
+    padding: 30px 55px;
+    font-size: 25px;
 }
