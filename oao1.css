@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    background-color: aquamarine;
+}
+.main{
+    background-color: blue;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 9px 15px rgb(68, 197, 252);
+}
+.main h1{
+    color: beige;
+    text-shadow: 4px 4px 2px red;
+}
+.drop button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(85, 106, 212);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+    box-shadow: 3px 3px 3px grey;
+}
+.drop a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+.drop .content{
+    background-color: aqua;
+    position: absolute;
+    box-shadow: 3px 3px 2px blue;
+    display: none;
+    min-width: 100px;
+}
+.drop:hover .content{
+    display: block;
+}
+.drop{
+    display: inline-block;
+}
+.drop:hover button{
+    background-color: rgb(162, 190, 255);
+}
+.drop a:hover{
+    background-color: rgb(6, 100, 100);
+}
+.container {
+    display: grid; /* Use grid layout */
+    place-items: center; /* Center both horizontally and vertically */
+    height: 100%; /* Full height */
+}
+.centered-div {
+    background-color: lightblue; /* Background color for visibility */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+.story {
+    max-width: 650px; /* Limit width for better readability */
+    padding: 15px; /* Add padding */
+    background-color: white; /* White background for the story area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text within the div */
+}
